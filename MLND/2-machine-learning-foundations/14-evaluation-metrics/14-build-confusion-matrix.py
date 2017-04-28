@@ -35,18 +35,21 @@ from sklearn import cross_validation
 # TODO: split the data into training and testing sets,
 # using the standard settings for train_test_split.
 # Then, train and test the classifiers with your newly split data instead of X and y.
-
+print ("# split the data into training and testing sets ...")
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size=0.4, random_state=0)
 
 # The decision tree classifier
+print ("# The decision tree classifier ...")
 clf1 = DecisionTreeClassifier()
-clf1.fit(X,y)
-answerDTC = accuracy_score(y, clf1.predict(X))
+clf1.fit(X_train,y_train)
+answerDTC = accuracy_score(y_test, clf1.predict(X_test))
 print ("Decision Tree has accuracy: ",answerDTC)
 
 # The naive Bayes classifier
+print ("# The naive Bayes classifier ...")
 clf2 = GaussianNB()
-clf2.fit(X,y)
-answerNBC = accuracy_score(y, clf2.predict(X))
+clf2.fit(X_train,y_train)
+answerNBC = accuracy_score(y_test, clf2.predict(X_test))
 print ("GaussianNB has accuracy: ",answerNBC)
 
 answer = { 
