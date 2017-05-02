@@ -1,4 +1,5 @@
-# 32_mean_absolute_error.py
+# 32. Mean Absolute Error
+#
 import numpy as np
 import pandas as pd
 

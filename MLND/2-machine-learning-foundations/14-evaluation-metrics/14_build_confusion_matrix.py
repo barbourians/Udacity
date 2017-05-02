@@ -1,4 +1,5 @@
-# 14-build-confusion-matrix.py
+# 14. Build a Confusion Matrix
+#
 # In this exercise, we'll use the Titanic dataset as before, train two classifiers and
 # look at their confusion matrices. Your job is to create a train/test split in the data
 # and report the results in the dictionary at the bottom.

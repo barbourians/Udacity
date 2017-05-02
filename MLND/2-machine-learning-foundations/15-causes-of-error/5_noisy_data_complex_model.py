@@ -1,4 +1,5 @@
 # 5. Noisy Data, Complex model
+#
 # In this exercise we'll examine a learner which has high variance, and tries to learn nonexistant patterns in the data.
 # Use the learning curve function from sklearn.learning_curve to plot learning curves of both training and testing error.
 

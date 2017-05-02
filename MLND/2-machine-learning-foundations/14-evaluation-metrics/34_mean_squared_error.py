@@ -1,4 +1,5 @@
-# 34_mean_squared_error.py
+# 34. Mean Squared Error
+#
 print ("# Import numpy and pandas ...")
 import numpy as np
 import pandas as pd

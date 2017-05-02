@@ -1,3 +1,5 @@
+# 26. Precision versus Recall
+#
 # As with the previous exercises, let's look at the performance of a couple of classifiers
 # on the familiar Titanic dataset. Add a train/test split, then store the results in the
 # dictionary provided.

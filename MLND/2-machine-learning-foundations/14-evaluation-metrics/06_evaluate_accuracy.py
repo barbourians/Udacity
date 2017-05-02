@@ -1,3 +1,4 @@
+# 6. Evaluate Accuracy
 #
 # In this and the following exercises, you'll be adding train test splits to the data
 # to see how it changes the performance of each classifier
