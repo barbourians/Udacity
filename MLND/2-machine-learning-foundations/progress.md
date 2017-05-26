@@ -1,3 +1,6 @@
+26 may 2017
+* Progress? the day is young ...
+
 25 May 2017
 * No progress
 
